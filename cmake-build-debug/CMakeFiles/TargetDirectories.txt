@@ -1,3 +1,3 @@
-D:/projet/proje langage c/MiniSGBDR/cmake-build-debug/CMakeFiles/MiniSGBDR.dir
-D:/projet/proje langage c/MiniSGBDR/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/projet/proje langage c/MiniSGBDR/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Patricia Thp/Pictures/projet c/MiniSGBDR/cmake-build-debug/CMakeFiles/MiniSGBDR.dir
+C:/Users/Patricia Thp/Pictures/projet c/MiniSGBDR/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Patricia Thp/Pictures/projet c/MiniSGBDR/cmake-build-debug/CMakeFiles/rebuild_cache.dir

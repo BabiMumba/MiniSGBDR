@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+//sql
 void print_menu() {
     printf("1. Create Table\n");
     printf("2. Drop Table\n");
