@@ -55,32 +55,14 @@ build CMakeFiles/MiniSGBDR.dir/main.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug
   OBJECT_DIR = CMakeFiles\MiniSGBDR.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniSGBDR.dir
 
-build CMakeFiles/MiniSGBDR.dir/data_types.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug D$:/projet/proje$ langage$ c/MiniSGBDR/data_types.c || cmake_object_order_depends_target_MiniSGBDR
-  DEP_FILE = CMakeFiles\MiniSGBDR.dir\data_types.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\MiniSGBDR.dir
-  OBJECT_FILE_DIR = CMakeFiles\MiniSGBDR.dir
-
 build CMakeFiles/MiniSGBDR.dir/table.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug D$:/projet/proje$ langage$ c/MiniSGBDR/table.c || cmake_object_order_depends_target_MiniSGBDR
   DEP_FILE = CMakeFiles\MiniSGBDR.dir\table.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MiniSGBDR.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniSGBDR.dir
 
-build CMakeFiles/MiniSGBDR.dir/query_processor.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug D$:/projet/proje$ langage$ c/MiniSGBDR/query_processor.c || cmake_object_order_depends_target_MiniSGBDR
-  DEP_FILE = CMakeFiles\MiniSGBDR.dir\query_processor.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\MiniSGBDR.dir
-  OBJECT_FILE_DIR = CMakeFiles\MiniSGBDR.dir
-
-build CMakeFiles/MiniSGBDR.dir/storage_manager.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug D$:/projet/proje$ langage$ c/MiniSGBDR/storage_manager.c || cmake_object_order_depends_target_MiniSGBDR
-  DEP_FILE = CMakeFiles\MiniSGBDR.dir\storage_manager.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\MiniSGBDR.dir
-  OBJECT_FILE_DIR = CMakeFiles\MiniSGBDR.dir
-
-build CMakeFiles/MiniSGBDR.dir/menu.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug D$:/projet/proje$ langage$ c/MiniSGBDR/menu.c || cmake_object_order_depends_target_MiniSGBDR
-  DEP_FILE = CMakeFiles\MiniSGBDR.dir\menu.c.obj.d
+build CMakeFiles/MiniSGBDR.dir/commandes.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug D$:/projet/proje$ langage$ c/MiniSGBDR/commandes.c || cmake_object_order_depends_target_MiniSGBDR
+  DEP_FILE = CMakeFiles\MiniSGBDR.dir\commandes.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MiniSGBDR.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniSGBDR.dir
@@ -93,7 +75,7 @@ build CMakeFiles/MiniSGBDR.dir/menu.c.obj: C_COMPILER__MiniSGBDR_unscanned_Debug
 #############################################
 # Link the executable MiniSGBDR.exe
 
-build MiniSGBDR.exe: C_EXECUTABLE_LINKER__MiniSGBDR_Debug CMakeFiles/MiniSGBDR.dir/main.c.obj CMakeFiles/MiniSGBDR.dir/data_types.c.obj CMakeFiles/MiniSGBDR.dir/table.c.obj CMakeFiles/MiniSGBDR.dir/query_processor.c.obj CMakeFiles/MiniSGBDR.dir/storage_manager.c.obj CMakeFiles/MiniSGBDR.dir/menu.c.obj
+build MiniSGBDR.exe: C_EXECUTABLE_LINKER__MiniSGBDR_Debug CMakeFiles/MiniSGBDR.dir/main.c.obj CMakeFiles/MiniSGBDR.dir/table.c.obj CMakeFiles/MiniSGBDR.dir/commandes.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MiniSGBDR.dir

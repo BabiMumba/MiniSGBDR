@@ -1,9 +1,26 @@
+#include "commandes.h"
+#include "table.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "menu.h"
+#include <string.h>
 
-int main(void) {
+#define MAX_INPUT_SIZE 256
 
-    menu();
+int main()
+{
+    atexit(free_all_tables);
+
+    char input[MAX_INPUT_SIZE];
+    while (1)
+    {
+        printf("bievenue dans mini-sgbdr\n");
+        printf("Commande> ");
+        if (fgets(input, MAX_INPUT_SIZE, stdin) == NULL)
+        {
+            break;
+        }
+        input[strcspn(input, "\n")] = '\0';
+        gerer_commande(input);
+    }
     return 0;
 }
