@@ -23,25 +23,25 @@ void gerer_commande(char *input)
         return;
     }
 
-    if (strcmp(tokens[0], "CREATE") == 0 && strcmp(tokens[1], "TABLE") == 0 && token_count > 3)
+    if (strcmp(tokens[0], "CREER") == 0 && strcmp(tokens[1], "TABLE") == 0 && token_count > 3)
     {
         creer_table(tokens[2], token_count - 3, &tokens[3]);
     }
-    else if (strcmp(tokens[0], "INSERT") == 0 && strcmp(tokens[1], "INTO") == 0 && token_count > 3)
+    else if (strcmp(tokens[0], "INSERER") == 0 && strcmp(tokens[1], "DANS") == 0 && token_count > 3)
     {
         inserer_dans_table(tokens[2], &tokens[3]);
     }
-    else if (strcmp(tokens[0], "UPDATE") == 0 && token_count > 5)
+    else if (strcmp(tokens[0], "METRE_A_JOUR") == 0 && token_count > 5)
     {
         mettre_a_jour_table(tokens[1], tokens[3], &tokens[5]);
     }
-    else if (strcmp(tokens[0], "DELETE") == 0 && strcmp(tokens[1], "FROM") == 0 && token_count > 3)
+    else if (strcmp(tokens[0], "SUPPRIMER") == 0 && strcmp(tokens[1], "DE") == 0 && token_count > 3)
     {
         supprimer_de_table(tokens[2], tokens[3]);
     }
-    else if (strcmp(tokens[0], "SELECT") == 0)
+    else if (strcmp(tokens[0], "SELECTIONNER") == 0)
     {
-        if (strcmp(tokens[1], "*") == 0 && strcmp(tokens[2], "FROM") == 0 && token_count > 3)
+        if (strcmp(tokens[1], "*") == 0 && strcmp(tokens[2], "DE") == 0 && token_count > 3)
         {
             selectionner_de_table(tokens[3], token_count > 4 ? tokens[4] : NULL);
         }
